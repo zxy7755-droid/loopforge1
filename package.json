@@ -1,0 +1,10 @@
+{
+  "name": "loopforge1-hello-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal static Hello World page for pipeline smoke test (loopforge1 -> welcome-test-sandbox).",
+  "scripts": {
+    "build": "echo no-build-needed",
+    "start": "python3 -m http.server 8000"
+  }
+}
